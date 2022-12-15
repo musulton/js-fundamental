@@ -104,6 +104,11 @@ snoop.play(5)
 prototype ini hanyalah properti yang dimiliki setiap fungsi dalam JavaScript, seperti yang kita lihat di atas, ini memungkinkan kita untuk berbagi metode di semua contoh fungsi.
  */
 
+/*
+Extend class pada JS sebetulnya juga melakukan hal yang sama dengan fungsi yang sudah dibuat diatas,
+itu sebenarnya membuat prototype DefaultAnimal pada Animal class
+ */
+
 class DefaultAnimal{
     play(length) {
         console.log(`${this.name} is playing.`)
